@@ -10723,7 +10723,6 @@ begin_bench:
 	cgtime(&total_tv_start);
 	cgtime(&total_tv_end);
 	cgtime(&tv_hashmeter);
-#	get_datestamp(datestamp, sizeof(datestamp), &total_tv_start);
 
 	watchpool_thr_id = 2;
 	thr = &control_thr[watchpool_thr_id];
